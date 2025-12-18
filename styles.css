@@ -1,1 +1,58 @@
 /*  your css code here. If applicable */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: cursive;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+}
+
+button {
+  width: 250px;
+  padding: 10px;
+  border: 2px solid black;
+  background: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.board {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.board div {
+  border: 2px solid black;
+  background: pink;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.win {
+  background-color: purple !important;
+  color: white;
+}
+
+.message {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
